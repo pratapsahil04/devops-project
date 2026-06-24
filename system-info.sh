@@ -1,0 +1,7 @@
+echo "==================="
+echo "   System Info - $(date)"
+echo "==================="
+echo "Hostname    :$(hostname)"
+echo "Kernel      :$(uname -r)"
+echo "CPU cores   :$(nproc)"
+echo "Uptime      :(uptime -p)"
